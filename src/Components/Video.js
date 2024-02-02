@@ -14,7 +14,6 @@ const Video=()=>{
             videoFound=video;
         }
     })
-
     if(videoFound==null){
         return <h1>This video does not exist</h1>
     }
