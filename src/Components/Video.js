@@ -10,7 +10,7 @@ const Video=()=>{
     let videoFound=null;
 
     VIDEOS.forEach(video=>{
-        if(video.id== id){
+        if(video.id == id){
             videoFound=video;
         }
     })

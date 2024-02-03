@@ -1,11 +1,11 @@
 
 import AllVideos from "./../Components/AllVideos";
-
+import SearchBar from "../Components/SearchBar";
 const Home=()=>{
 
     return(
         <>
-            <h3>Glavna Stranica</h3>
+            <SearchBar/>
            <AllVideos/>
         </> )
 }
