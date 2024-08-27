@@ -6,7 +6,6 @@ const Video=()=>{
 
 
     const { id } =useParams()
-
     let videoFound=null;
 
     VIDEOS.forEach(video=>{
